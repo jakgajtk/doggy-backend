@@ -1,6 +1,6 @@
 'use strict'
 
-const Dog = use('App/Models/User')
+const Dog = use('App/Models/Dog')
 
 class DogController {
   async index () {
