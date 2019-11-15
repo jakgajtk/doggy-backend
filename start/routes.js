@@ -18,4 +18,5 @@ const Route = use('Route')
 
 Route.on('/').render('welcome')
 
-Route.get('dogs', 'DogController.index')
+Route.resource('dogs', 'DogController')
+  .apiOnly()
